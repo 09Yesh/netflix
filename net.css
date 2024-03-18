@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./bg.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    margin: 0; /* Remove default margin */
+  }
+  
+  .container {
+    position: relative; /* Add this line */
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(32, 32, 32, 0.8); 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 6px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #333;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e50914;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ff0a16;
+  }
+  
+  .forgot-password {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .ch {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ch input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .le {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .le a {
+    color: #e50914;
+    text-decoration: none;
+  }
+  
+  .le a:hover {
+    text-decoration: underline;
+  }
+  
